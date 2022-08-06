@@ -6,9 +6,9 @@ import Image from 'next/image'
 function Navbar({ login } : any) {
     return (
         <>
-            <nav className="shadow-sm fixed w-full z-10">
+            <nav className="shadow-sm shadow-cyan-900 fixed w-full z-10">
                 <div className="w-full">
-                    <div className="flex items-center h-24 w-full">
+                    <div className="flex items-center h-20 w-full">
                         <div className="flex items items-center mx-40 justify-between w-full">
                             <div className="flex justify-center items-start flex-shrink-0">
                                 <a href="/"><Image src="/logo/logo_and_text_horizontal.png" alt="AGR logo" width={160} height={35} /></a>

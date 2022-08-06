@@ -1,29 +1,63 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@agrcolors;
 
-@font-face {
+  /* Urbanist */
+  @font-face {
     font-family: "Urbanist";
-    src: url("./fonts/Urbanist-Regular.otf");
+    src: url("./fonts/urbanist/Urbanist-Regular.otf");
     font-weight: normal;
     font-style: normal;
   }
   @font-face {
     font-family: "Urbanist";
-    src: url("./fonts/Urbanist-SemiBold.otf");
+    src: url("./fonts/urbanist/Urbanist-SemiBold.otf");
     font-weight: 600;
     font-style: normal;
   }
   @font-face {
     font-family: "Urbanist";
-    src: url("./fonts/Urbanist-Black.otf");
+    src: url("./fonts/urbanist/Urbanist-Black.otf");
     font-weight: 900;
     font-style: normal;
   }
   @font-face {
     font-family: "Urbanist";
-    src: url("./fonts/Urbanist-Light.otf");
+    src: url("./fonts/urbanist/Urbanist-Light.otf");
     font-weight: 300;
+    font-style: normal;
+  }
+
+  /* Montserrat */
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-Regular.otf");
+    font-weight: normal;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-Italic.otf");
+    font-weight: normal;
+    font-style: italic;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-Bold.otf");
+    font-weight: bold;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+  }
+  @font-face {
+    font-family: "Montserrat";
+    src: url("./fonts/montserrat/Montserrat-ExtraBold.otf");
+    font-weight: 800;
     font-style: normal;
   }
 
@@ -36,3 +70,16 @@
       font-family: Urbanist, system-ui, sans-serif;
     }
   }
+
+@import url("agrcolors.css");
+@import url("agrassets.css");
+
+.font-family-league {
+  font-family: Montserrat;
+  font-weight: 700;
+}
+
+button {
+  font-family: Montserrat;
+  font-weight: 700;
+}

@@ -1,0 +1,32 @@
+.bg-violet-agr-900 {
+    --tw-bg-opacity: 1;
+      background-color: rgb(16 4 32 / var(--tw-bg-opacity));
+  }.hover\:bg-violet-agr-900:hover {
+    --tw-bg-opacity: 1;
+      background-color: rgb(16 4 32 / var(--tw-bg-opacity));
+  }
+  
+  .text-cyan-agr-500 {
+    --tw-text-opacity: 1;
+    color: rgb(166 221 227 / var(--tw-text-opacity));
+  }.hover\:text-cyan-agr-500:hover {
+    --tw-text-opacity: 1;
+    color: rgb(166 221 227 / var(--tw-text-opacity));
+  }
+  
+  .text-cyan-agr-300 {
+    --tw-text-opacity: 1;
+    color: rgb(25 242 243 / var(--tw-text-opacity));
+  }.hover\:text-cyan-agr-300:hover {
+    --tw-text-opacity: 1;
+    color: rgb(25 242 243 / var(--tw-text-opacity));
+  }
+  
+  .text-violet-agr-600 {
+    --tw-text-opacity: 1;
+    color: rgb(233 115 255 / var(--tw-text-opacity));
+  }.hover\:text-violet-agr-600:hover {
+    --tw-text-opacity: 1;
+    color: rgb(233 115 255 / var(--tw-text-opacity));
+  }
+

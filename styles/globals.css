@@ -67,14 +67,14 @@
 
 @layer base {
     html {
-      font-family: Urbanist, system-ui, sans-serif;
+      font-family: Montserrat, system-ui, sans-serif;
     }
   }
 
 @import url("agrcolors.css");
 @import url("agrassets.css");
 
-.font-family-league {
+.font-family-montserrat {
   font-family: Montserrat;
   font-weight: 700;
 }

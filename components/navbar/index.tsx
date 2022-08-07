@@ -6,14 +6,14 @@ import Image from 'next/image'
 function Navbar({ login } : any) {
     return (
         <>
-            <nav className="shadow-sm shadow-cyan-900 fixed w-full z-10">
+            <nav className="shadow-sm shadow-cyan-900 absolute w-full z-10">
                 <div className="w-full">
                     <div className="flex items-center h-20 w-full">
-                        <div className="flex items items-center mx-40 justify-between w-full">
+                        <div className="flex items items-center px-40 justify-between w-full">
                             <div className="flex justify-center items-start flex-shrink-0">
                                 <a href="/"><Image src="/logo/logo_and_text_horizontal.png" alt="AGR logo" width={160} height={35} /></a>
                             </div>
-                            <div className="flex flex-row font-family-league">
+                            <div className="flex flex-row font-family-montserrat">
                                 <div className="ml-10 flex items-baseline space-x-10">
                                     <Link activeClass="Home" to="about" smooth={false} offset={50} duration={500} 
                                     className="cursor-pointer tracking-wide text-white font-bold px-3 py-2 hover:text-sky-300 transition linear duration-300">

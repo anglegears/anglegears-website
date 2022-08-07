@@ -5,7 +5,7 @@ import Image from 'next/image'
 import Footer from '../components/footer'
 import Navbar from '../components/navbar'
 import ModalLogin from '../components/modals/login'
-import Landing from './landing'
+import Sections from './section'
 
 const Home: NextPage = () => {
   const divRef = React.useRef();
@@ -32,7 +32,7 @@ const Home: NextPage = () => {
       </div>
 
       <Navbar login={setModalLoginOpen} />
-      <Landing />
+      <Sections />
 
       <Footer />
     </div>
